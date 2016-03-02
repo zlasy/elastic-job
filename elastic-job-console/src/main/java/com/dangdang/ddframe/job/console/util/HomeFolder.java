@@ -20,7 +20,7 @@ package com.dangdang.ddframe.job.console.util;
 import java.io.File;
 
 public final class HomeFolder {
-    
+    private static final String test = "";
     private static final String USER_HOME = System.getProperty("user.home");
     
     private static final String FILE_SEPARATOR = System.getProperty("file.separator");
